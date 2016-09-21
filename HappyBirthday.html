@@ -1,0 +1,59 @@
+<html !DOCTYPE>
+<head><title>Happy Birthday</title></head>
+
+<h1> Happy Birthday Bruce Wayne!</h1>
+<ul>
+  <li><a href="http://www.gsu.edu/">Home</a></li>
+  <li><a href="http://magiccityreservations.com/contact-us/">Party Address</a></li>
+  <li><a href="contact.asp">Contact Information</a></li>
+  <li><a href="about.asp">Event List</a></li>
+</ul>
+<body class="center">
+
+<p class="dotted">Happy Birthday Bruce!!.</p>
+
+<script>
+
+function logoBat(){
+	document.getElementById("bat").src="batlogo.jpg";
+}
+function wayne(){
+	document.getElementById("bat").src="Wayne.png";
+}
+</script>
+
+
+</body>
+
+
+<div>
+<img id="bat" onmouseover="logoBat()" onmouseout="wayne()" src="Wayne.png" alt= "Wayne">
+</div>
+
+
+</html>
+
+<style>
+p.dotted {border-style: dotted;}
+.center {
+	font-size: 20px;
+    text-align: center;
+    border: 3px solid yellow;
+}
+body{
+background-color: purple;
+}
+h1 {
+font-size: 40px;
+font-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+	display: inline;
+}
+</style>
